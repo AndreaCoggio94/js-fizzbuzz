@@ -37,8 +37,22 @@
   background-color: var(--primary-bg-color);
 }
 
+/* header */
+
+#header {
+  color: var(--white);
+}
+
+#header h1 {
+  font-size: 4rem;
+}
+
+/* main */
+
 #fizz-buzz .box {
+  width: 140px;
   aspect-ratio: 1 / 1;
+  line-height: 140px;
 }
 
 #fizz-buzz .number-box {
@@ -56,11 +70,3 @@
 #fizz-buzz .fizzBuzz-box {
   background-color: var(--fizzBuzz-card-color);
 }
-
-/* header */
-
-#header {
-  color: var(--white);
-}
-
-/* main */

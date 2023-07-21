@@ -17,7 +17,7 @@ for (let i = 1; i <= 100; i++) {
   //   find card
   const cardFinder = document.querySelector("#fizz-buzz > div:last-child");
   //   add box to card
-  cardFinder.classList.add("box", "col-1", "m-4", "p-4");
+  cardFinder.classList.add("box", "m-3", "text-center");
   // Fizz Buzz
   if (i % 3 == 0 && i % 5 == 0) {
     console.log(fizzBuzz);
