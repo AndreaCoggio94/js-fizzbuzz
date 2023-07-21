@@ -37,6 +37,26 @@
   background-color: var(--primary-bg-color);
 }
 
+#fizz-buzz .box {
+  aspect-ratio: 1 / 1;
+}
+
+#fizz-buzz .number-box {
+  background-color: var(--number-card-color);
+}
+
+#fizz-buzz .fizz-box {
+  background-color: var(--fizz-card-color);
+}
+
+#fizz-buzz .buzz-box {
+  background-color: var(--buzz-card-color);
+}
+
+#fizz-buzz .fizzBuzz-box {
+  background-color: var(--fizzBuzz-card-color);
+}
+
 /* header */
 
 #header {
